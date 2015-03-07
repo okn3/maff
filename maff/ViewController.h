@@ -14,15 +14,12 @@
 //@interface ViewController : UIViewController
 
 @interface ViewController : UIViewController <UIAccelerometerDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *xLabel;
-@property (weak, nonatomic) IBOutlet UILabel *yLabel;
-@property (weak, nonatomic) IBOutlet UILabel *zLabel;
-
-
+@property (strong, nonatomic) IBOutlet UILabel *xLabel;
+@property (strong, nonatomic) IBOutlet UILabel *yLabel;
+@property (strong, nonatomic) IBOutlet UILabel *zLabel;
 
 @property(readwrite)CFURLRef soundURL;
 @property(readonly)SystemSoundID soundID;
-
 
 @end
 

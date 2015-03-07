@@ -10,7 +10,6 @@
 		79E6C7431AA9CCF900684224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E6C7421AA9CCF900684224 /* main.m */; };
 		79E6C7461AA9CCF900684224 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E6C7451AA9CCF900684224 /* AppDelegate.m */; };
 		79E6C7491AA9CCF900684224 /* maff.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79E6C7471AA9CCF900684224 /* maff.xcdatamodeld */; };
-		79E6C74C1AA9CCF900684224 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E6C74B1AA9CCF900684224 /* ViewController.m */; };
 		79E6C74F1AA9CCF900684224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E6C74D1AA9CCF900684224 /* Main.storyboard */; };
 		79E6C7511AA9CCF900684224 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E6C7501AA9CCF900684224 /* Images.xcassets */; };
 		79E6C7541AA9CCF900684224 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E6C7521AA9CCF900684224 /* LaunchScreen.xib */; };
@@ -22,6 +21,17 @@
 		79E6C7721AA9E9BC00684224 /* saberu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79E6C7711AA9E9BC00684224 /* saberu.wav */; };
 		79E6C7761AA9F62000684224 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E6C7751AA9F62000684224 /* AVFoundation.framework */; };
 		79E6C7781AA9FB8100684224 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E6C7771AA9FB8100684224 /* bgm.mp3 */; };
+		79E6C77D1AAAAA0000684224 /* drive.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E6C77B1AAAAA0000684224 /* drive.png */; };
+		79E6C77E1AAAAA0000684224 /* gundam.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E6C77C1AAAAA0000684224 /* gundam.png */; };
+		79E6C7821AAAE5F600684224 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79E6C7811AAAE5F600684224 /* start.wav */; };
+		79E6C78A1AAAF06900684224 /* nsx_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E6C7891AAAF06800684224 /* nsx_sound.mp3 */; };
+		79E8D4561AAAF81400C8A005 /* drive_start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E8D4551AAAF81400C8A005 /* drive_start.mp3 */; };
+		79E8D4581AAAFA4000C8A005 /* nsx.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E8D4571AAAFA4000C8A005 /* nsx.mp3 */; };
+		79E8D4AE1AAB210800C8A005 /* cartridge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E8D4AB1AAB210800C8A005 /* cartridge.mp3 */; };
+		79E8D4AF1AAB210800C8A005 /* fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E8D4AC1AAB210800C8A005 /* fire.mp3 */; };
+		79E8D4B01AAB210800C8A005 /* gunset.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E8D4AD1AAB210800C8A005 /* gunset.mp3 */; };
+		79E8D4B21AAB25CA00C8A005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E8D4B11AAB25CA00C8A005 /* ViewController.m */; };
+		79E8D4B61AAB2D0500C8A005 /* machinegun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E8D4B51AAB2D0500C8A005 /* machinegun.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +52,6 @@
 		79E6C7451AA9CCF900684224 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79E6C7481AA9CCF900684224 /* maff.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = maff.xcdatamodel; sourceTree = "<group>"; };
 		79E6C74A1AA9CCF900684224 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		79E6C74B1AA9CCF900684224 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		79E6C74E1AA9CCF900684224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79E6C7501AA9CCF900684224 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79E6C7531AA9CCF900684224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -56,6 +65,17 @@
 		79E6C7711AA9E9BC00684224 /* saberu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = saberu.wav; path = ../../../../Downloads/saberu.wav; sourceTree = "<group>"; };
 		79E6C7751AA9F62000684224 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		79E6C7771AA9FB8100684224 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bgm.mp3; path = ../../../../Downloads/bgm.mp3; sourceTree = "<group>"; };
+		79E6C77B1AAAAA0000684224 /* drive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drive.png; path = ../../../../Desktop/drive.png; sourceTree = "<group>"; };
+		79E6C77C1AAAAA0000684224 /* gundam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gundam.png; path = ../../../../Desktop/gundam.png; sourceTree = "<group>"; };
+		79E6C7811AAAE5F600684224 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = start.wav; path = ../../../../Downloads/start.wav; sourceTree = "<group>"; };
+		79E6C7891AAAF06800684224 /* nsx_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nsx_sound.mp3; path = ../../../../Downloads/nsx_sound.mp3; sourceTree = "<group>"; };
+		79E8D4551AAAF81400C8A005 /* drive_start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = drive_start.mp3; path = ../../../../Downloads/drive_start.mp3; sourceTree = "<group>"; };
+		79E8D4571AAAFA4000C8A005 /* nsx.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nsx.mp3; path = ../../../../Downloads/nsx.mp3; sourceTree = "<group>"; };
+		79E8D4AB1AAB210800C8A005 /* cartridge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cartridge.mp3; path = ../../../../Downloads/cartridge.mp3; sourceTree = "<group>"; };
+		79E8D4AC1AAB210800C8A005 /* fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fire.mp3; path = ../../../../Downloads/fire.mp3; sourceTree = "<group>"; };
+		79E8D4AD1AAB210800C8A005 /* gunset.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gunset.mp3; path = ../../../../Downloads/gunset.mp3; sourceTree = "<group>"; };
+		79E8D4B11AAB25CA00C8A005 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79E8D4B51AAB2D0500C8A005 /* machinegun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = machinegun.mp3; path = ../../../../Downloads/machinegun.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +123,12 @@
 		79E6C73F1AA9CCF900684224 /* maff */ = {
 			isa = PBXGroup;
 			children = (
-				79E6C7771AA9FB8100684224 /* bgm.mp3 */,
-				79E6C7711AA9E9BC00684224 /* saberu.wav */,
-				79E6C76F1AA9E9AF00684224 /* rifle.wav */,
-				79E6C76D1AA9E5F900684224 /* newtype.mp3 */,
+				79E6C77A1AAAA9BE00684224 /* sounds */,
+				79E6C7791AAAA9B300684224 /* images */,
 				79E6C7441AA9CCF900684224 /* AppDelegate.h */,
 				79E6C7451AA9CCF900684224 /* AppDelegate.m */,
 				79E6C74A1AA9CCF900684224 /* ViewController.h */,
-				79E6C74B1AA9CCF900684224 /* ViewController.m */,
+				79E8D4B11AAB25CA00C8A005 /* ViewController.m */,
 				79E6C74D1AA9CCF900684224 /* Main.storyboard */,
 				79E6C7501AA9CCF900684224 /* Images.xcassets */,
 				79E6C7521AA9CCF900684224 /* LaunchScreen.xib */,
@@ -144,6 +162,34 @@
 				79E6C75E1AA9CCF900684224 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E6C7791AAAA9B300684224 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				79E6C77B1AAAAA0000684224 /* drive.png */,
+				79E6C77C1AAAAA0000684224 /* gundam.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		79E6C77A1AAAA9BE00684224 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				79E8D4B51AAB2D0500C8A005 /* machinegun.mp3 */,
+				79E8D4AB1AAB210800C8A005 /* cartridge.mp3 */,
+				79E8D4AC1AAB210800C8A005 /* fire.mp3 */,
+				79E8D4AD1AAB210800C8A005 /* gunset.mp3 */,
+				79E8D4571AAAFA4000C8A005 /* nsx.mp3 */,
+				79E8D4551AAAF81400C8A005 /* drive_start.mp3 */,
+				79E6C7891AAAF06800684224 /* nsx_sound.mp3 */,
+				79E6C7811AAAE5F600684224 /* start.wav */,
+				79E6C7711AA9E9BC00684224 /* saberu.wav */,
+				79E6C76F1AA9E9AF00684224 /* rifle.wav */,
+				79E6C76D1AA9E5F900684224 /* newtype.mp3 */,
+				79E6C7771AA9FB8100684224 /* bgm.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,12 +272,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E8D4561AAAF81400C8A005 /* drive_start.mp3 in Resources */,
+				79E6C78A1AAAF06900684224 /* nsx_sound.mp3 in Resources */,
+				79E6C7821AAAE5F600684224 /* start.wav in Resources */,
+				79E8D4581AAAFA4000C8A005 /* nsx.mp3 in Resources */,
 				79E6C7721AA9E9BC00684224 /* saberu.wav in Resources */,
 				79E6C74F1AA9CCF900684224 /* Main.storyboard in Resources */,
 				79E6C7701AA9E9AF00684224 /* rifle.wav in Resources */,
 				79E6C7781AA9FB8100684224 /* bgm.mp3 in Resources */,
+				79E8D4B61AAB2D0500C8A005 /* machinegun.mp3 in Resources */,
 				79E6C76E1AA9E5F900684224 /* newtype.mp3 in Resources */,
 				79E6C7541AA9CCF900684224 /* LaunchScreen.xib in Resources */,
+				79E8D4AE1AAB210800C8A005 /* cartridge.mp3 in Resources */,
+				79E8D4AF1AAB210800C8A005 /* fire.mp3 in Resources */,
+				79E6C77D1AAAAA0000684224 /* drive.png in Resources */,
+				79E6C77E1AAAAA0000684224 /* gundam.png in Resources */,
+				79E8D4B01AAB210800C8A005 /* gunset.mp3 in Resources */,
 				79E6C7511AA9CCF900684224 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +308,7 @@
 			files = (
 				79E6C7461AA9CCF900684224 /* AppDelegate.m in Sources */,
 				79E6C7491AA9CCF900684224 /* maff.xcdatamodeld in Sources */,
-				79E6C74C1AA9CCF900684224 /* ViewController.m in Sources */,
+				79E8D4B21AAB25CA00C8A005 /* ViewController.m in Sources */,
 				79E6C7431AA9CCF900684224 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +500,7 @@
 				79E6C7651AA9CCF900684224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79E6C7661AA9CCF900684224 /* Build configuration list for PBXNativeTarget "maffTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +509,7 @@
 				79E6C7681AA9CCF900684224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
